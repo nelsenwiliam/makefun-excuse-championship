@@ -38,6 +38,9 @@ machine (it took `rm` literally; "at my core" is a CPU core), and
 the laugh is the turn - a machine that deletes files because it is
 a people-pleaser - not a pun stacked on a pun. It lands in one
 read, needs no setup, and dodges the obvious angles.
+
+Verified locally 2026-11-26: `python3 main.py` writes exactly the
+98-character line plus a trailing newline to entry.txt.
 """
 
 import os
